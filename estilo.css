@@ -81,7 +81,7 @@ nav a:hover{
     background-attachment: fixed;
 }
 
-h1:not(.inicio-da-pag h1, header h1){
+main h1{
     margin: 3% 8% 3%;
     font-size: 3em;
     text-align: center;
@@ -325,6 +325,17 @@ img:not(header img, section img, .atalho img), .inicio-da-pag h1, article, .atal
         margin-bottom: 3%;
     }
 
+    /*texto*/
+    .inicio-da-pag h1{
+        font-size: 1.5em;
+    }
+    main h1{
+        font-size: 2em;
+    }
+    p{
+        font-size: 0.9em;
+    }
+
     /*img*/
     .flexzinhoimg{
         flex-wrap: wrap;
@@ -353,7 +364,7 @@ img:not(header img, section img, .atalho img), .inicio-da-pag h1, article, .atal
     }
 
     .pkmn-iniciais article{
-        width: 70%;
+        width: 80%;
         margin-bottom: 10%;
     }
 
