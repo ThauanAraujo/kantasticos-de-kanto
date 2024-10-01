@@ -394,7 +394,10 @@ img:not(header img, section img, .atalho img), .inicio-da-pag h1, article, .atal
     }
 
     .flexzinho table{
-        font-size: 0.7em;
+        font-size: 0.55em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4%;
     }
 
 }
