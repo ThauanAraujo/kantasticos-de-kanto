@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: inline-block;
+}
+
+/*header*/
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(230, 17, 17);
+    color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.lideres header{
+    background-color: rgb(0, 65, 204);
+}
+
+.elite header{
+    background-color: rgb(30, 30, 30);
+}
+
+.titulo-header{
+    margin: 0.01%;
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    box-sizing: border-box;
+    width: 18%;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav a{
+    margin: 5px;
+    background-color: rgb(52, 52, 52);
+    padding: 5px 8px 5px;
+    border-radius: 7px;
+    font-size: 1.1em;
+    transition: background-color 300ms linear;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+nav a:link{
+    color: rgb(255, 255, 255);
+}
+
+nav a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(52, 52, 52);
+    background-color: rgb(255, 255, 255);
+}
+
+/*texto*/
+
+.inicio-da-pag{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2em;
+    padding: 3%;
+    background-image: url(imagens/Fundoescuro.png);
+    background-attachment: fixed;
+}
+
+h1:not(.inicio-da-pag h1, header h1){
+    margin: 3% 8% 3%;
+    font-size: 3em;
+    text-align: center;
+    clear: both;
+}
+
+p, ul:not(header ul){
+    text-align: left;
+    font-size: 1.3em;
+    margin: 2% 5% 1%;
+}
+
+p a:link, p a:visited{
+    color: rgb(230, 17, 17);
+    text-decoration: none;
+}
+
+p a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+p a:active{
+    color: rgb(230, 17, 17);
+    text-decoration: none;
+}
+
+.flexzinhoimg > p{
+    margin: 0;
+}
+
+.flexzinhoimg div p, .flexzinhoimg div{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*img*/
+
+.img-a-direita{
+    margin-left: 5%;
+}
+
+.img-a-esquerda{
+    margin-right: 5%;
+}
+
+.img-tamanho1{
+    box-sizing: border-box;
+    width: 15%;
+    /*margin: 2% 4% 2%;*/
+}
+
+.img-tamanho2{
+    box-sizing: border-box;
+    /*margin: 2% 4% 2%;*/
+    width: 20%;
+}
+
+.img-tamanho3{
+    box-sizing: border-box;
+    /*margin: 2% 4% 2%;*/
+    width: 30%;
+}
+
+.flexzinhoimg{
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 4% 2%;
+    align-items: center;
+}
+
+/*"Cartões"*/
+
+article{
+    background-image: url(imagens/Fundoclaro.png);
+    border-radius: 20px;
+    padding: 2.5% 3% 2.5%;
+    background-attachment: fixed;
+}
+
+article p, article h2{
+    background-color: rgba(255, 255, 255, 0.592);
+    border-radius: 20px;
+    padding: 2.5% 3% 2.5%;
+}
+
+article h2 a:link, article h2 a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+
+article h2 a:hover{
+    color: rgb(230, 17, 17);
+    text-decoration: underline;
+}
+
+article h2 a:active{
+    color: inherit;
+    text-decoration: none;
+}
+
+article p{
+    text-align: center;
+}
+
+/*pkmn iniciais*/
+
+.pkmn-iniciais{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pkmn-iniciais article{
+    box-sizing: border-box;
+    width: 27%;
+}
+
+.pkmn-iniciais img{
+    display: block;
+    margin: 3% auto 3%;
+    width: 70%;
+}
+
+/*Atalho*/
+
+.atalho{
+    color: rgb(255, 255, 255);
+    position: sticky;
+    top: 9.5%;
+    z-index: 2;
+}
+
+.lideres .atalho{
+    background-color: rgb(230, 17, 17);
+}
+
+.elite .atalho{
+    background-color: rgb(255, 210, 87) ;
+}
+
+.atalho ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 0%;
+    padding: 10px;
+}
+
+/*treinadores*/
+
+.treinadores{
+    width: 70%;
+    margin: 4% auto 4%;
+}
+
+.lideres .treinadores thead{
+    background-color: rgb(0, 65, 204);
+}
+
+.elite .treinadores thead{
+    background-color: rgb(255, 210, 87);
+}
+
+.flexzinho{
+    display: flex;
+    align-items: center;
+}
+
+.treinadores article{
+    margin-bottom: 7%;
+}
+
+.treinadores img:not(table img){
+    height: 20em;
+}
+
+/*tabela*/
+
+table{
+    margin: 2% auto 2%;
+    border-collapse: collapse;
+    font-size: 1.3em;
+}
+
+thead, tbody{
+    border: 0.3em solid rgb(0, 0, 0);
+}
+
+tbody{
+    background-color: rgb(255, 255, 255);
+}
+
+td, th{
+    text-align: center;
+    padding: 0.55em;
+}
+
+table img{
+    width: 2em;
+}
+
+/*Animações*/
+
+@keyframes surgindo{
+    from{ opacity: 0; bottom: -3em;}
+    to{ opacity: 1; bottom: 0;}
+}
+
+img:not(header img, section img, .atalho img), .inicio-da-pag h1, article, .atalho li{
+    position: relative;
+    animation: surgindo 1s ease-in-out;
+}
+
+/*Responsividade*/
+
+@media screen and (min-width: 721px) and (max-width: 1024px){
+    
+}
+
+@media screen and (max-width: 720px){
+
+    /*header*/
+    header{
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 90%;
+    }
+
+    .titulo-header{
+        width: 80%;
+        justify-content: center;
+    }
+
+    header nav{
+        width: 80%;
+    }
+
+    header ul{
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+
+    /*img*/
+    .flexzinhoimg{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .flexzinhoimg img{
+        margin: 2% 0;
+    }
+
+    .img-tamanho1{
+        width: 50%;
+    }
+
+    .img-tamanho2{
+        width: 60%;
+    }
+
+    .img-tamanho3{
+        width: 80%;
+    }
+
+    /* pkmn iniciais */
+    .pkmn-iniciais{
+        flex-wrap: wrap;
+    }
+
+    .pkmn-iniciais article{
+        width: 70%;
+        margin-bottom: 10%;
+    }
+
+}
+
+body{
+    margin: 0%;
+    font-family: "Varela Round", 'Trebuchet MS', Arial;
+}
+
+html, body{
+    min-height: 100%;
+}
