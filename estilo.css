@@ -65,7 +65,7 @@ nav a:visited{
     text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover, .atual, .atual:link, .atual:visited{
     color: rgb(52, 52, 52);
     background-color: rgb(255, 255, 255);
 }
@@ -326,6 +326,7 @@ img:not(header img, section img, .atalho img), .inicio-da-pag h1, article, .atal
     }
 
     /*texto*/
+
     .inicio-da-pag h1{
         font-size: 1.5em;
     }
@@ -337,6 +338,7 @@ img:not(header img, section img, .atalho img), .inicio-da-pag h1, article, .atal
     }
 
     /*img*/
+
     .flexzinhoimg{
         flex-wrap: wrap;
         justify-content: center;
@@ -359,13 +361,40 @@ img:not(header img, section img, .atalho img), .inicio-da-pag h1, article, .atal
     }
 
     /* pkmn iniciais */
+
     .pkmn-iniciais{
         flex-wrap: wrap;
+        width: 100%;
     }
 
     .pkmn-iniciais article{
         width: 80%;
         margin-bottom: 10%;
+    }
+
+    /* treinadores */
+
+    .treinadores{
+        width: 80%;
+    }
+
+    .treinadores article{
+        width: 100%;
+    }
+
+    .flexzinho{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .flexzinho div{
+        width: 100%;
+    }
+
+    .flexzinho table{
+        font-size: 0.7em;
     }
 
 }
