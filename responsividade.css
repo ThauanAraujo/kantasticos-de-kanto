@@ -169,3 +169,22 @@
         font-size: 0.8em;
     }
 }
+
+@media screen and (max-height: 610px) and (min-width: 721px){
+    .atalho ul{
+        position: fixed;
+        bottom: 0;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 0%;
+        font-size: 0.7em;
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        align-content: space-between;
+        flex-direction: row;
+    }
+
+    main{
+        display: block;
+    }
+}
