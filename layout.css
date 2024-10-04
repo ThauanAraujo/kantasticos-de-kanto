@@ -1,0 +1,31 @@
+@media screen and (min-width: 721px){
+    main{
+        padding: 0;
+        display: grid;
+        grid-template-columns: 15% 1fr;
+    }
+
+    section, article{
+        grid-column: 2/3;
+    }
+
+    .treinadores{
+        width: 80%;
+    }
+
+    .atalho{
+        position: fixed;
+        background-color: rgba(255, 255, 255, 0);
+        top: auto;
+    }
+
+    .lideres .atalho{
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .atalho ul{
+        flex-direction: column;
+        gap: 1em;
+        position: fixed;
+    }
+}

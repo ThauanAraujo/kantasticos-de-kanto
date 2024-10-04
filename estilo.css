@@ -81,6 +81,11 @@ nav a:hover, .atual, .atual:link, .atual:visited{
     background-attachment: fixed;
 }
 
+main{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
 main h1{
     margin: 3% 8% 3%;
     font-size: 3em;
@@ -91,20 +96,20 @@ main h1{
 p, ul:not(header ul){
     text-align: left;
     font-size: 1.3em;
-    margin: 2% 5% 1%;
+    margin: 2% 0 2%;
 }
 
-p a:link, p a:visited{
+p a:link, p a:visited, dd a:link, dd a:visited{
     color: rgb(230, 17, 17);
     text-decoration: none;
 }
 
-p a:hover{
+p a:hover, dd a:hover{
     color: rgb(0, 0, 0);
     text-decoration: underline;
 }
 
-p a:active{
+p a:active, dd a:visited{
     color: rgb(230, 17, 17);
     text-decoration: none;
 }
@@ -116,6 +121,21 @@ p a:active{
 .flexzinhoimg div p, .flexzinhoimg div{
     margin-left: 0;
     margin-right: 0;
+}
+
+dt{
+    margin: 3% 8% 1%;
+    font-size: 2em;
+}
+
+body *::selection{
+    color: rgb(230, 17, 17);
+    background-color: rgb(255, 255, 255);
+}
+
+main *::selection{
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 17, 17);
 }
 
 /*img*/
@@ -149,8 +169,8 @@ p a:active{
 .flexzinhoimg{
     display: flex;
     justify-content: space-around;
-    margin: 2% 4% 2%;
     align-items: center;
+    margin-top: 2%;
 }
 
 /*"Cartões"*/
@@ -191,7 +211,7 @@ article p{
 
 .pkmn-iniciais{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .pkmn-iniciais article{
@@ -215,11 +235,11 @@ article p{
 }
 
 .lideres .atalho{
-    background-color: rgb(230, 17, 17);
+    /*background-color: rgb(230, 17, 17);*/
 }
 
 .elite .atalho{
-    background-color: rgb(255, 210, 87) ;
+    /*background-color: rgb(255, 210, 87) ;*/
 }
 
 .atalho ul{
@@ -257,6 +277,7 @@ article p{
 
 .treinadores img:not(table img){
     height: 20em;
+    margin: 2% 3%;
 }
 
 /*tabela*/
@@ -264,7 +285,7 @@ article p{
 table{
     margin: 2% auto 2%;
     border-collapse: collapse;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 thead, tbody{
@@ -291,116 +312,11 @@ table img{
     to{ opacity: 1; bottom: 0;}
 }
 
-img:not(header img, section img, .atalho img), .inicio-da-pag h1, article, .atalho li{
+img:not(header img, section img, .atalho img), .inicio-da-pag h1, article, .atalho li, dl{
     position: relative;
     animation: surgindo 1s ease-in-out;
 }
 
-/*Responsividade*/
-
-@media screen and (min-width: 721px) and (max-width: 1024px){
-    
-}
-
-@media screen and (max-width: 720px){
-
-    /*header*/
-    header{
-        flex-wrap: wrap;
-        justify-content: center;
-        font-size: 90%;
-    }
-
-    .titulo-header{
-        width: 80%;
-        justify-content: center;
-    }
-
-    header nav{
-        width: 80%;
-    }
-
-    header ul{
-        justify-content: center;
-        margin-bottom: 3%;
-    }
-
-    /*texto*/
-
-    .inicio-da-pag h1{
-        font-size: 1.5em;
-    }
-    main h1{
-        font-size: 2em;
-    }
-    p{
-        font-size: 0.9em;
-    }
-
-    /*img*/
-
-    .flexzinhoimg{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .flexzinhoimg img{
-        margin: 2% 0;
-    }
-
-    .img-tamanho1{
-        width: 50%;
-    }
-
-    .img-tamanho2{
-        width: 60%;
-    }
-
-    .img-tamanho3{
-        width: 80%;
-    }
-
-    /* pkmn iniciais */
-
-    .pkmn-iniciais{
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .pkmn-iniciais article{
-        width: 80%;
-        margin-bottom: 10%;
-    }
-
-    /* treinadores */
-
-    .treinadores{
-        width: 80%;
-    }
-
-    .treinadores article{
-        width: 100%;
-    }
-
-    .flexzinho{
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .flexzinho div{
-        width: 100%;
-    }
-
-    .flexzinho table{
-        font-size: 0.55em;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 4%;
-    }
-
-}
 
 body{
     margin: 0%;
