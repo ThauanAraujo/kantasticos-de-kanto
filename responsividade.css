@@ -1,4 +1,4 @@
-@media screen and (max-width: 1180px){
+@media (max-width: 1180px){
     /*img*/
 
     .flexzinhoimg{
@@ -42,7 +42,7 @@
 
 }
 
-@media screen and (max-width: 720px){
+@media (max-width: 720px){
 
     /*header*/
     header{
@@ -132,7 +132,7 @@
 
 }
 
-@media screen and (min-width: 721px) and (max-width: 1180px){
+@media (min-width: 721px) and (max-width: 1180px){
     /*img*/
 
     .img-tamanho1{
@@ -170,7 +170,7 @@
     }
 }
 
-@media screen and (max-height: 610px) and (min-width: 721px){
+@media (max-height: 610px) and (min-width: 721px){
     .atalho ul{
         position: fixed;
         bottom: 0;
