@@ -1,16 +1,16 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-img{
+img {
     display: inline-block;
 }
 
 /*header*/
 
-header{
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -21,152 +21,174 @@ header{
     z-index: 3;
 }
 
-.lideres header{
+.lideres header {
     background-color: rgb(0, 65, 204);
 }
 
-.elite header{
+.elite header {
     background-color: rgb(30, 30, 30);
 }
 
-.titulo-header{
+.titulo-header {
     margin: 0.01%;
     display: flex;
     align-items: center;
+    font-family: "Dela Gothic One", sans-serif;
 }
 
-header img{
+header img {
     box-sizing: border-box;
     width: 18%;
 }
 
-header ul{
+header ul {
     display: flex;
     list-style-type: none;
 }
 
-nav a{
+nav a {
     margin: 5px;
     background-color: rgb(52, 52, 52);
     padding: 5px 8px 5px;
     border-radius: 7px;
-    font-size: 1.1em;
+    font-size: 110%;
     transition: background-color 300ms linear;
     text-decoration: none;
     text-wrap: nowrap;
 }
 
-nav a:link{
+nav a:link {
     color: rgb(255, 255, 255);
 }
 
-nav a:visited{
+nav a:visited {
     color: inherit;
     text-decoration: none;
 }
 
-nav a:hover, .atual, .atual:link, .atual:visited{
+nav a:hover,
+.atual,
+.atual:link,
+.atual:visited {
     color: rgb(52, 52, 52);
     background-color: rgb(255, 255, 255);
 }
 
 /*texto*/
 
-.inicio-da-pag{
+.inicio-da-pag {
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 2em;
+    font-size: 200%;
     padding: 3%;
     background-image: url(imagens/Fundoescuro.png);
     background-attachment: fixed;
 }
 
-main{
+main {
     padding-right: 5%;
     padding-left: 5%;
 }
 
-main h1{
+main h1 {
     margin: 3% 8% 3%;
-    font-size: 3em;
+    font-size: 300%;
     text-align: center;
     clear: both;
 }
 
-p, ul:not(header ul){
+p,
+ul:not(header ul) {
     text-align: left;
-    font-size: 1.3em;
+    font-size: 130%;
     margin: 2% 0 2%;
 }
 
-p a:link, p a:visited, dd a:link, dd a:visited{
+p a:link,
+p a:visited,
+dd a:link,
+dd a:visited {
     color: rgb(230, 17, 17);
     text-decoration: none;
 }
 
-p a:hover, dd a:hover{
+p a:hover,
+dd a:hover {
     color: rgb(0, 0, 0);
     text-decoration: underline;
 }
 
-p a:active, dd a:visited{
+p a:active,
+dd a:visited {
     color: rgb(230, 17, 17);
     text-decoration: none;
 }
 
-.flexzinhoimg > p{
+.flexzinhoimg>p {
     margin: 0;
 }
 
-.flexzinhoimg div p, .flexzinhoimg div{
+.flexzinhoimg div p,
+.flexzinhoimg div {
     margin-left: 0;
     margin-right: 0;
 }
 
-dt{
+dt {
     margin: 3% 8% 1%;
     font-size: 2em;
 }
 
-body *::selection{
+body *::selection {
     color: rgb(230, 17, 17);
     background-color: rgb(255, 255, 255);
 }
 
-main *::selection{
+main *::selection {
     color: rgb(255, 255, 255);
     background-color: rgb(230, 17, 17);
 }
 
+iframe {
+    width: 80%;
+    display: block;
+    margin: 5% auto;
+}
+
+main > h2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 /*img*/
 
-.img-a-direita{
+.img-a-direita {
     margin-left: 5%;
 }
 
-.img-a-esquerda{
+.img-a-esquerda {
     margin-right: 5%;
 }
 
-.img-tamanho1{
+.img-tamanho1 {
     box-sizing: border-box;
     width: 15%;
     /*margin: 2% 4% 2%;*/
 }
 
-.img-tamanho2{
+.img-tamanho2 {
     box-sizing: border-box;
     /*margin: 2% 4% 2%;*/
     width: 20%;
 }
 
-.img-tamanho3{
+.img-tamanho3 {
     box-sizing: border-box;
     /*margin: 2% 4% 2%;*/
     width: 30%;
 }
 
-.flexzinhoimg{
+.flexzinhoimg {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -175,51 +197,53 @@ main *::selection{
 
 /*"Cartões"*/
 
-article{
+article {
     background-image: url(imagens/Fundoclaro.png);
     border-radius: 20px;
     padding: 2.5% 3% 2.5%;
     background-attachment: fixed;
 }
 
-article p, article h2{
+article p,
+article h2 {
     background-color: rgba(255, 255, 255, 0.592);
     border-radius: 20px;
     padding: 2.5% 3% 2.5%;
 }
 
-article h2 a:link, article h2 a:visited{
+article h2 a:link,
+article h2 a:visited {
     color: inherit;
     text-decoration: none;
 }
 
-article h2 a:hover{
+article h2 a:hover {
     color: rgb(230, 17, 17);
     text-decoration: underline;
 }
 
-article h2 a:active{
+article h2 a:active {
     color: inherit;
     text-decoration: none;
 }
 
-article p{
+article p {
     text-align: center;
 }
 
 /*pkmn iniciais*/
 
-.pkmn-iniciais{
+.pkmn-iniciais {
     display: flex;
     justify-content: space-between;
 }
 
-.pkmn-iniciais article{
+.pkmn-iniciais article {
     box-sizing: border-box;
     width: 27%;
 }
 
-.pkmn-iniciais img{
+.pkmn-iniciais img {
     display: block;
     margin: 3% auto 3%;
     width: 70%;
@@ -227,22 +251,22 @@ article p{
 
 /*Atalho*/
 
-.atalho{
+.atalho {
     color: rgb(255, 255, 255);
     position: sticky;
     top: 9.5%;
     z-index: 2;
 }
 
-.lideres .atalho{
+.lideres .atalho {
     /*background-color: rgb(230, 17, 17);*/
 }
 
-.elite .atalho{
+.elite .atalho {
     /*background-color: rgb(255, 210, 87) ;*/
 }
 
-.atalho ul{
+.atalho ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -253,76 +277,90 @@ article p{
 
 /*treinadores*/
 
-.treinadores{
+.treinadores {
     width: 70%;
     margin: 4% auto 4%;
 }
 
-.lideres .treinadores thead{
+.lideres .treinadores thead {
     background-color: rgb(0, 65, 204);
 }
 
-.elite .treinadores thead{
+.elite .treinadores thead {
     background-color: rgb(255, 210, 87);
 }
 
-.flexzinho{
+.flexzinho {
     display: flex;
     align-items: center;
 }
 
-.treinadores article{
+.treinadores article {
     margin-bottom: 7%;
 }
 
-.treinadores img:not(table img){
+.treinadores img:not(table img) {
     height: 20em;
     margin: 2% 3%;
 }
 
 /*tabela*/
 
-table{
+table {
     margin: 2% auto 2%;
     border-collapse: collapse;
-    font-size: 1em;
 }
 
-thead, tbody{
+thead,
+tbody {
     border: 0.3em solid rgb(0, 0, 0);
 }
 
-tbody{
+tbody {
     background-color: rgb(255, 255, 255);
 }
 
-td, th{
+td,
+th {
     text-align: center;
     padding: 0.55em;
 }
 
-table img{
+table img {
     width: 2em;
 }
 
 /*Animações*/
 
-@keyframes surgindo{
-    from{ opacity: 0; bottom: -3em;}
-    to{ opacity: 1; bottom: 0;}
+@keyframes surgindo {
+    from {
+        opacity: 0;
+        bottom: -3em;
+    }
+
+    to {
+        opacity: 1;
+        bottom: 0;
+    }
 }
 
-img:not(header img, section img, .atalho img), .inicio-da-pag h1, article, .atalho li, dl{
+img:not(header img, section img, .atalho img),
+.inicio-da-pag h1,
+article,
+.atalho li,
+dl,
+iframe {
     position: relative;
     animation: surgindo 1s ease-in-out;
 }
 
 
-body{
+body {
     margin: 0%;
     font-family: "Varela Round", 'Trebuchet MS', Arial;
 }
 
-html, body{
+html,
+body {
     min-height: 100%;
 }
