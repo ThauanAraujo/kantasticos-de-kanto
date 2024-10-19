@@ -79,6 +79,10 @@
         font-size: 90%;
     }
 
+    iframe {
+        width: 80%;
+    }
+
     /*img*/
 
     .img-tamanho1 {

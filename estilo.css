@@ -34,6 +34,7 @@ header {
     display: flex;
     align-items: center;
     font-family: "Dela Gothic One", sans-serif;
+    font-size: 90%;
 }
 
 header img {
@@ -150,7 +151,6 @@ main *::selection {
 }
 
 iframe {
-    width: 80%;
     display: block;
     margin: 5% auto;
 }
