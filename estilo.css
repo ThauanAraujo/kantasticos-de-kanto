@@ -155,7 +155,7 @@ iframe {
     margin: 5% auto;
 }
 
-main > h2 {
+main>h2 {
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -258,14 +258,6 @@ article p {
     z-index: 2;
 }
 
-.lideres .atalho {
-    /*background-color: rgb(230, 17, 17);*/
-}
-
-.elite .atalho {
-    /*background-color: rgb(255, 210, 87) ;*/
-}
-
 .atalho ul {
     display: flex;
     flex-wrap: wrap;
@@ -328,6 +320,29 @@ th {
 
 table img {
     width: 2em;
+}
+
+/*easter egg*/
+
+#botao-easteregg {
+    cursor: pointer;
+}
+
+#botao-easteregg:hover {
+    color: rgb(255, 251, 0);
+    text-decoration: underline;
+}
+
+.desaparecido {
+    display: none;
+}
+
+.amarelo {
+    background-color: rgb(255, 221, 0);
+}
+
+#pikachu {
+    cursor: pointer;
 }
 
 /*Animações*/
