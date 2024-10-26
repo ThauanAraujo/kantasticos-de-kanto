@@ -18,3 +18,23 @@ function pikachuChorando() {
 }
 
 pikachuEl.addEventListener('click', pikachuChorando);
+
+//Botao musical
+
+let botaoMusicalEl = document.querySelector('#botao-musical');
+let musicaEl = document.querySelector('#musica-de-fundo');
+let musicaTocando = false;
+
+function tocarMusica() {
+    botaoMusicalEl.classList.toggle('botao-ativado');
+    if(musicaTocando){
+        musicaEl.pause();
+        musicaTocando = false;
+    }else{
+        musicaEl.play();
+        musicaTocando = true;
+    }
+    
+}
+
+botaoMusicalEl.addEventListener('click', tocarMusica);

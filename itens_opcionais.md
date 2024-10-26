@@ -6,7 +6,21 @@ _URL do site:_ https://thauanaraujo.github.io/kantasticos-de-kanto/
 
 _Itens opcionais implementados (conforme enunciado):_
 
-- (3-10%) Algo interativo na página utilizando JavaScript / (2-5%) Easter egg usando CSS ou JavaScript:
+- (3-10%) Algo interativo na página utilizando JavaScript:
+
+Botão para ativar e desativar o som de fundo da página index.
+
+<img scr="imgs-itensopcionais/musicahtml.png">
+<img scr="imgs-itensopcionais/musicajs.png">
+
+- (5-10%) Colocar animações, transições e transformações:
+
+Animação que faz alguns elementos do site aparecerem de baixo para cima ao iniciar/atualizar a página e transition ao passar por cima dos botões dentro de <code>nav</code>.
+
+<img src="imgs-itensopcionais/Animacoes.png">
+<img src="imgs-itensopcionais/Transition.png">
+
+- (2-5%) Easter egg usando CSS ou JavaScript:
 
 Botão escondido na frase "Let's go Pikachu", que troca a cor do <code>header</code> para amarelo e o ícone do header para um Pikachu, que, ao clicá-lo, faz o som que o Pikachu dos jogos de Pokémon faz.
 
@@ -14,15 +28,6 @@ Botão escondido na frase "Let's go Pikachu", que troca a cor do <code>header</c
 <img src="imgs-itensopcionais/HTML Easter Egg.png">
 <img src="imgs-itensopcionais/CSS Easter Egg.png">
 <img src="imgs-itensopcionais/Botao.png">
-
-- (5-10%) Colocar animações, transições e transformações:
-
-Animação que faz alguns elementos do site aparecerem de baixo para cima ao iniciar/atualizar a página e transition ao passar por cima dos botões dentro de <code>nav</code>.
-
-
-<img src="imgs-itensopcionais/Animacoes.png">
-<img src="imgs-itensopcionais/Transition.png">
-
 
 - (5%) Alguns elementos com posicionamento não estático:
 

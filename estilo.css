@@ -345,6 +345,35 @@ table img {
     cursor: pointer;
 }
 
+/*interação javascript*/
+
+#botao-musical.botao-ativado{
+    background-color: rgb(230, 17, 17);
+    color: rgb(255, 255, 255);
+}
+
+#botao-musical{
+    position: fixed;
+    text-align: center;
+    bottom: 5%;
+    right: 5%;
+    padding: 1% 2%;
+    border: 5px solid rgb(230, 17, 17);
+    border-radius: 0.4em;
+    font-size: 250%;
+    background-color: rgb(203, 203, 203);
+    color: rgb(230, 17, 17);
+    cursor: pointer;
+    transition: background-color 150ms linear;
+}
+
+
+
+#botao-musical:active{
+    right: 4%;
+    bottom: 4%;
+}
+
 /*Animações*/
 
 @keyframes surgindo {
