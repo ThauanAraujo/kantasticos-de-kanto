@@ -10,8 +10,8 @@ _Itens opcionais implementados (conforme enunciado):_
 
 Botão para ativar e desativar o som de fundo da página index.
 
-<img scr="imgs-itensopcionais/musicahtml.png">
-<img scr="imgs-itensopcionais/musicajs.png">
+<img src="imgs-itensopcionais/musicahtml.png">
+<img src="imgs-itensopcionais/musicajs.png">
 
 - (5-10%) Colocar animações, transições e transformações:
 
